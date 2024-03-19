@@ -56,7 +56,7 @@ SIGNS.forEach(function(sign) {
     if (operator_Counter === 2) {
       
       // Prevent division by 0
-      if (DIVISION_BY_0(operator_Used, Number(number_2))) {
+      if (DIVISION_BY_0(operator_Used, Number(number_1))) {
         // Exit function
         return;
       }
